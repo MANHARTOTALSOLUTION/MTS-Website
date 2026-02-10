@@ -1,0 +1,25 @@
+{
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/c26cb_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [
+    "static/development/_ssgManifest.js",
+    "static/development/_buildManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_ef3fbd41._.js",
+    "static/chunks/c26cb_next_dist_compiled_react-dom_e8dabc6d._.js",
+    "static/chunks/c26cb_next_dist_compiled_react-server-dom-turbopack_2bd7b247._.js",
+    "static/chunks/c26cb_next_dist_compiled_next-devtools_index_b6c26cd2.js",
+    "static/chunks/c26cb_next_dist_compiled_23a74237._.js",
+    "static/chunks/c26cb_next_dist_client_9b9ca8eb._.js",
+    "static/chunks/c26cb_next_dist_1c0fe05c._.js",
+    "static/chunks/c26cb_@swc_helpers_cjs_f3da74e6._.js",
+    "static/chunks/6c7f9_manhar-total-solution-website (2)_manhar-total-solution-website_a0ff3932._.js",
+    "static/chunks/63a6e_manhar-total-solution-website (2)_manhar-total-solution-website_4a6ce529._.js"
+  ]
+}
