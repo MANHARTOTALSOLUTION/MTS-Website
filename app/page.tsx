@@ -25,7 +25,7 @@ export default function Home() {
             {/* Left Content */}
             <div className="space-y-6">
               <h1 className="text-5xl lg:text-6xl font-bold text-[#0D1B2A] leading-tight">
-                Fast paperwork and reliable insurance, all in one place
+                Fast work and reliable insurance, all in one place
               </h1>
               <p className="text-lg text-gray-600">
                 Manhar Total Solution provides comprehensive government documentation services and insurance solutions.
