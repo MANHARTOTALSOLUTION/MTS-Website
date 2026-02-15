@@ -54,8 +54,8 @@ export default function Contact() {
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-8 border border-blue-200">
               <PhoneIcon className="w-8 h-8 text-[#1E73BE] mb-4" />
               <h3 className="text-xl font-bold text-gray-900 mb-2">Phone</h3>
-              <p className="text-gray-700 mb-4">+91 234 567 890</p>
-              <a href="tel:+91234567890" className="text-[#1E73BE] hover:underline font-semibold">
+              <p className="text-gray-700 mb-4">+91 99241 97765</p>
+              <a href="tel:+919924197765" className="text-[#1E73BE] hover:underline font-semibold">
                 Call Now
               </a>
             </div>
@@ -64,8 +64,8 @@ export default function Contact() {
             <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-xl p-8 border border-orange-200">
               <MailIcon className="w-8 h-8 text-[#FF8C42] mb-4" />
               <h3 className="text-xl font-bold text-gray-900 mb-2">Email</h3>
-              <p className="text-gray-700 mb-4">info@manhar.com</p>
-              <a href="mailto:info@manhar.com" className="text-[#FF8C42] hover:underline font-semibold">
+              <p className="text-gray-700 mb-4">manhartotalsolution@gmail.com</p>
+              <a href="mailto:manhartotalsolution@gmail.com" className="text-[#FF8C42] hover:underline font-semibold">
                 Send Email
               </a>
             </div>
@@ -78,9 +78,9 @@ export default function Contact() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">WhatsApp</h3>
-              <p className="text-gray-700 mb-4">+91 98765 43210</p>
+              <p className="text-gray-700 mb-4">+91 99241 97765</p>
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919924197765"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#25D366] hover:underline font-semibold"
@@ -162,16 +162,20 @@ export default function Contact() {
 
             {/* Map and Address */}
             <div className="space-y-6">
-              <div className="rounded-2xl overflow-hidden shadow-lg h-80 bg-gray-200">
-                <iframe
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.1234567890!2d77.2234!3d28.6139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM2JzUwLjAiTiA3N8KwMTMnMjQuMiJF!5e0!3m2!1sen!2sin!4v1234567890"
-                  allowFullScreen
-                  loading="lazy"
-                />
-              </div>
+              <div className="space-y-6">
+  <div className="rounded-2xl overflow-hidden shadow-lg h-80 bg-gray-200">
+    <iframe
+      width="100%"
+      height="100%"
+      style={{ border: 0 }}
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4552.2200001207475!2d72.53338807606428!3d23.70482859052301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c51b11ebc6029%3A0x4d4328b461ecd5fe!2sManhar%20Total%20Solution!5e1!3m2!1sen!2sin!4v1771164741806!5m2!1sen!2sin"
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    />
+  </div>
+</div>
+
 
               <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
                 <h3 className="text-lg font-bold text-gray-900 mb-4 flex items-center gap-2">
