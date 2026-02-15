@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link"
 
 export default function Footer() {
@@ -9,9 +10,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <div className="w-12 h-12 bg-[#1E73BE] rounded-lg flex items-center justify-center text-white text-lg font-bold mb-4">
-              M
-            </div>
+            <Image
+              src="/logo.png"
+              alt="Manhar Total Solution Logo"
+              width={80}
+              height={80}
+            />
             <p className="text-gray-300 text-sm">Fast paperwork and reliable insurance, all in one place.</p>
           </div>
 

@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image";
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { MenuIcon, XIcon } from "@/lib/icons"
@@ -27,9 +28,13 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 font-bold">
-            <div className="w-12 h-12 bg-[#1E73BE] rounded-lg flex items-center justify-center text-white text-lg font-bold">
-              M
-            </div>
+            <Image
+              src="/logo.png"
+              alt="Manhar Total Solution Logo"
+              width={60}
+              height={60}
+            />
+
             <div className="hidden sm:block">
               <div className="text-[#1E73BE] text-lg font-bold">Manhar Total Solution</div>
               <div className="text-xs text-gray-600">Documentation & Insurance</div>

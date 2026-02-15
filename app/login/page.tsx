@@ -1,5 +1,5 @@
 "use client"
-
+import Image from "next/image";
 import type React from "react"
 
 import { useState } from "react"
@@ -37,11 +37,17 @@ export default function Login() {
           <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
             {/* Logo */}
             <Link href="/" className="flex items-center justify-center gap-2 mb-8">
-              <div className="w-10 h-10 bg-[#1E73BE] rounded-lg flex items-center justify-center text-white font-bold">
-                M
-              </div>
+              <Image
+                src="/logo.png"
+                alt="Manhar Total Solution Logo"
+                width={80}
+                height={80}
+              />
+              
               <div>
+                
                 <div className="text-[#1E73BE] font-bold text-sm">Manhar Total Solution</div>
+                
               </div>
             </Link>
 
