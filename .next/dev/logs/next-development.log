@@ -1,5 +1,10 @@
-[00:00:01.735] Server  LOG     ✓ Ready in 1136ms
-[00:00:10.759] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:11.147] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:11.147] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:11.147] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3002/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3002/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771603216065}
+[00:00:03.141] Server  LOG     ✓ Ready in 2.2s
+[00:00:17.309] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:17.854] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:17.855] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:17.855] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3002/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3002/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771606358715}
+[00:00:19.287] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3002/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3002/login","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1771606360264}
+[00:00:49.298] Server  LOG     📦 Database: Initializing connection pool...
+[00:00:49.453] Server  LOG     📝 Database: Executing query: "SELECT id FROM users WHERE email = $1..."
+[00:00:49.679] Server  ERROR   ❌ Database: Query error: "database \"manhar_db\" does not exist"
+[00:00:50.479] Server  ERROR   Auth error: error: database "manhar_db" does not exist
