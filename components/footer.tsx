@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link"
+import { InstagramIcon } from "@/lib/icons"
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -66,8 +67,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/faq" className="hover:text-[#FF8C42] transition">
-                  FAQ
+                <Link href="/privacy" className="hover:text-[#FF8C42] transition">
+                  Privacy Policy
                 </Link>
               </li>
             </ul>
@@ -79,18 +80,23 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
                 Email:{" "}
-                <a href="mailto:info@manhar.com" className="hover:text-[#FF8C42] transition">
-                  info@manhar.com
+                <a href="mailto:manhartotalsolution@gmail.com" className="hover:text-[#FF8C42] transition">
+                  manhartotalsolution@gmail.com
                 </a>
               </li>
               <li>
                 Phone:{" "}
-                <a href="tel:+91234567890" className="hover:text-[#FF8C42] transition">
-                  +91 234 567 890
+                <a href="tel:+919924197765" className="hover:text-[#FF8C42] transition">
+                  +91 99241 97765
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#FF8C42] transition">
+                <a 
+                  href="https://wa.me/919924197765" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-[#FF8C42] transition"
+                >
                   WhatsApp Us
                 </a>
               </li>
@@ -101,17 +107,14 @@ export default function Footer() {
         <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-400">© {currentYear} Manhar Total Solution. All rights reserved.</p>
           <div className="flex gap-4 mt-4 md:mt-0">
-            <a href="#" className="text-gray-400 hover:text-[#FF8C42] transition">
-              Facebook
-            </a>
-            <a href="#" className="text-gray-400 hover:text-[#FF8C42] transition">
-              Twitter
-            </a>
-            <a href="#" className="text-gray-400 hover:text-[#FF8C42] transition">
-              LinkedIn
-            </a>
-            <a href="#" className="text-gray-400 hover:text-[#FF8C42] transition">
-              WhatsApp
+            <a 
+              href="https://www.instagram.com/manhartotalsolution?igsh=MTV6NDJweGR3a3VlYQ==" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-[#FF8C42] transition"
+              aria-label="Follow us on Instagram"
+            >
+              <InstagramIcon className="w-5 h-5" />
             </a>
           </div>
         </div>

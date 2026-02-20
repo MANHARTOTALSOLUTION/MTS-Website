@@ -272,13 +272,15 @@ export default function ServiceDetail({ params }: { params: { id: string } }) {
                 </p>
                 <div className="space-y-2">
                   <a
-                    href="tel:+91234567890"
+                    href="tel:+919924197765"
                     className="block px-4 py-2 bg-[#1E73BE] text-white rounded-lg hover:bg-[#155aa8] transition text-center font-semibold text-sm"
                   >
                     Call Now
                   </a>
                   <a
-                    href="#"
+                    href="https://wa.me/919924197765"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="block px-4 py-2 border-2 border-[#1E73BE] text-[#1E73BE] dark:text-white dark:border-white rounded-lg hover:bg-blue-50 dark:hover:bg-[#0a1421] transition text-center font-semibold text-sm"
                   >
                     WhatsApp Us
