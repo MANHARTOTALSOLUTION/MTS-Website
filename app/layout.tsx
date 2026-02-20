@@ -12,26 +12,47 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://manhartotalsolution.com"),
   title: "Manhar Total Solution - Documentation & Insurance Services",
   description:
     "Fast paperwork and reliable insurance, all in one place. Government documentation services and insurance solutions.",
-  generator: "v0.app",
-  icons: {
-    icon: [
+  keywords: "documentation, insurance, government services, aadhaar, pan card, gst, motor insurance, life insurance",
+  authors: [{ name: "Manhar Total Solution" }],
+  openGraph: {
+    title: "Manhar Total Solution - Documentation & Insurance Services",
+    description: "Fast paperwork and reliable insurance, all in one place.",
+    url: "https://manhartotalsolution.com",
+    siteName: "Manhar Total Solution",
+    locale: "en_IN",
+    type: "website",
+    images: [
       {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Manhar Total Solution Logo",
       },
     ],
-    apple: "/apple-icon.png",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Manhar Total Solution - Documentation & Insurance Services",
+    description: "Fast paperwork and reliable insurance, all in one place.",
+    images: ["/logo.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml", sizes: "any" },
+      { url: "/logo.png", sizes: "32x32", type: "image/png" },
+    ],
+    shortcut: "/favicon.svg",
+    apple: [
+      { url: "/logo.png", sizes: "180x180", type: "image/png" },
+    ],
   },
 }
 
