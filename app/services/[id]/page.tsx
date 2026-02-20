@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from "react"
-import WhatsappButton from "@/components/whatsapp-button"
 import Link from "next/link"
 import { CheckIcon } from "@/lib/icons"
 
@@ -290,8 +289,6 @@ export default function ServiceDetail({ params }: { params: { id: string } }) {
           </div>
         </div>
       </div>
-
-      <WhatsappButton />
     </>
   )
 }

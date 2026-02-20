@@ -1,3 +1,4 @@
+import Link from "next/link"
 import {
   DocumentIcon,
   ShieldIcon,
@@ -27,12 +28,18 @@ export default function Home() {
                 We make complex processes simple, fast, and affordable for everyone.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <button className="px-8 py-3 bg-[#1E73BE] text-white rounded-lg hover:bg-[#155aa8] transition font-semibold">
+                <Link 
+                  href="/services" 
+                  className="px-8 py-3 bg-[#1E73BE] text-white rounded-lg hover:bg-[#155aa8] transition font-semibold inline-block"
+                >
                   Explore Services
-                </button>
-                <button className="px-8 py-3 border-2 border-[#1E73BE] text-[#1E73BE] dark:text-white dark:border-white rounded-lg hover:bg-blue-50 dark:hover:bg-[#1B2838] transition font-semibold">
+                </Link>
+                <Link 
+                  href="/contact" 
+                  className="px-8 py-3 border-2 border-[#1E73BE] text-[#1E73BE] dark:text-white dark:border-white rounded-lg hover:bg-blue-50 dark:hover:bg-[#1B2838] transition font-semibold inline-block"
+                >
                   Contact Us
-                </button>
+                </Link>
               </div>
             </div>
 
@@ -182,9 +189,12 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-              <button className="px-8 py-3 bg-[#1E73BE] text-white rounded-lg hover:bg-[#155aa8] transition font-semibold inline-flex items-center gap-2">
+              <Link 
+                href="/about" 
+                className="px-8 py-3 bg-[#1E73BE] text-white rounded-lg hover:bg-[#155aa8] transition font-semibold inline-flex items-center gap-2"
+              >
                 Learn More <ArrowRightIcon className="w-4 h-4" />
-              </button>
+              </Link>
             </div>
             <div className="rounded-3xl overflow-hidden shadow-lg h-96 bg-gradient-to-br from-[#1E73BE] to-[#FF8C42] opacity-80" />
           </div>
@@ -199,12 +209,20 @@ export default function Home() {
             Our dedicated support team is available 24/7 to help you with any questions.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <button className="px-8 py-3 bg-white text-[#1E73BE] rounded-lg hover:bg-gray-100 transition font-semibold">
+            <a 
+              href="tel:+919924197765" 
+              className="px-8 py-3 bg-white text-[#1E73BE] rounded-lg hover:bg-gray-100 transition font-semibold"
+            >
               Call Now
-            </button>
-            <button className="px-8 py-3 bg-[#25D366] text-white rounded-lg hover:bg-green-600 transition font-semibold">
+            </a>
+            <a 
+              href="https://wa.me/919924197765" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-8 py-3 bg-[#25D366] text-white rounded-lg hover:bg-green-600 transition font-semibold"
+            >
               WhatsApp Us
-            </button>
+            </a>
           </div>
         </div>
       </section>

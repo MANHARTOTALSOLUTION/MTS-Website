@@ -3,7 +3,6 @@
 import type React from "react"
 
 import { useState } from "react"
-import WhatsappButton from "@/components/whatsapp-button"
 
 const allServices = [
   "Aadhaar Enrollment",
@@ -176,8 +175,6 @@ export default function Apply() {
           </div>
         </div>
       </div>
-
-      <WhatsappButton />
     </>
   )
 }

@@ -3,7 +3,6 @@
 import type React from "react"
 
 import { useState } from "react"
-import WhatsappButton from "@/components/whatsapp-button"
 import { PhoneIcon, MailIcon, MapPinIcon } from "@/lib/icons"
 
 export default function Contact() {
@@ -197,8 +196,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-
-      <WhatsappButton />
     </>
   )
 }

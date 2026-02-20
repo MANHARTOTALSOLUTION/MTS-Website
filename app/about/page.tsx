@@ -1,4 +1,3 @@
-import WhatsappButton from "@/components/whatsapp-button"
 import { CheckCircleIcon } from "@/lib/icons"
 
 export default function About() {
@@ -142,8 +141,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
-      <WhatsappButton />
     </>
   )
 }

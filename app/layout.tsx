@@ -5,6 +5,7 @@ import { Analytics } from "@vercel/analytics/next"
 import { ThemeProvider } from "@/components/theme-provider"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
+import WhatsappButton from "@/components/whatsapp-button"
 import "./globals.css"
 
 const _geist = Geist({ subsets: ["latin"] })
@@ -53,6 +54,7 @@ export default function RootLayout({
             {children}
           </main>
           <Footer />
+          <WhatsappButton />
           <Analytics />
         </ThemeProvider>
       </body>

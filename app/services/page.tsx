@@ -2,7 +2,6 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import WhatsappButton from "@/components/whatsapp-button"
 import {
   AadhaarIcon,
   CreditCardIcon,
@@ -142,8 +141,6 @@ export default function Services() {
           )}
         </div>
       </section>
-
-      <WhatsappButton />
     </>
   )
 }

@@ -702,7 +702,9 @@ __turbopack_context__.s([
     ()=>Home
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$lib$2f$icons$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/lib/icons.tsx [app-rsc] (ecmascript)");
+;
 ;
 ;
 function Home() {
@@ -723,7 +725,7 @@ function Home() {
                                         children: "Fast work and reliable insurance, all in one place"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                        lineNumber: 22,
+                                        lineNumber: 23,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -731,38 +733,40 @@ function Home() {
                                         children: "Manhar Total Solution provides comprehensive government documentation services and insurance solutions. We make complex processes simple, fast, and affordable for everyone."
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                        lineNumber: 25,
+                                        lineNumber: 26,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex gap-4 flex-wrap",
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "px-8 py-3 bg-[#1E73BE] text-white rounded-lg hover:bg-[#155aa8] transition font-semibold",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "/services",
+                                                className: "px-8 py-3 bg-[#1E73BE] text-white rounded-lg hover:bg-[#155aa8] transition font-semibold inline-block",
                                                 children: "Explore Services"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                lineNumber: 30,
+                                                lineNumber: 31,
                                                 columnNumber: 17
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "px-8 py-3 border-2 border-[#1E73BE] text-[#1E73BE] dark:text-white dark:border-white rounded-lg hover:bg-blue-50 dark:hover:bg-[#1B2838] transition font-semibold",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "/contact",
+                                                className: "px-8 py-3 border-2 border-[#1E73BE] text-[#1E73BE] dark:text-white dark:border-white rounded-lg hover:bg-blue-50 dark:hover:bg-[#1B2838] transition font-semibold inline-block",
                                                 children: "Contact Us"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                lineNumber: 33,
+                                                lineNumber: 37,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                        lineNumber: 29,
+                                        lineNumber: 30,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                lineNumber: 21,
+                                lineNumber: 22,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -772,7 +776,7 @@ function Home() {
                                         className: "absolute inset-0 bg-gradient-to-br from-[#1E73BE] to-[#FF8C42] opacity-10 rounded-3xl blur-3xl"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                        lineNumber: 41,
+                                        lineNumber: 48,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -788,7 +792,7 @@ function Home() {
                                                                 className: "w-12 h-12 mx-auto mb-2"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                                lineNumber: 46,
+                                                                lineNumber: 53,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -796,18 +800,18 @@ function Home() {
                                                                 children: "Documentation"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                                lineNumber: 47,
+                                                                lineNumber: 54,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                        lineNumber: 45,
+                                                        lineNumber: 52,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                    lineNumber: 44,
+                                                    lineNumber: 51,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -818,7 +822,7 @@ function Home() {
                                                                 className: "w-12 h-12 mx-auto mb-2"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                                lineNumber: 52,
+                                                                lineNumber: 59,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -826,18 +830,18 @@ function Home() {
                                                                 children: "Insurance"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                                lineNumber: 53,
+                                                                lineNumber: 60,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                        lineNumber: 51,
+                                                        lineNumber: 58,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                    lineNumber: 50,
+                                                    lineNumber: 57,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -849,7 +853,7 @@ function Home() {
                                                                 className: "w-12 h-12 text-[#1E73BE] mx-auto mb-2"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                                lineNumber: 58,
+                                                                lineNumber: 65,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -857,18 +861,18 @@ function Home() {
                                                                 children: "Verified"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                                lineNumber: 59,
+                                                                lineNumber: 66,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                        lineNumber: 57,
+                                                        lineNumber: 64,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                    lineNumber: 56,
+                                                    lineNumber: 63,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -880,7 +884,7 @@ function Home() {
                                                                 className: "w-12 h-12 text-[#FF8C42] mx-auto mb-2"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                                lineNumber: 64,
+                                                                lineNumber: 71,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -888,51 +892,51 @@ function Home() {
                                                                 children: "Trusted"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                                lineNumber: 65,
+                                                                lineNumber: 72,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                        lineNumber: 63,
+                                                        lineNumber: 70,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                    lineNumber: 62,
+                                                    lineNumber: 69,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                            lineNumber: 43,
+                                            lineNumber: 50,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                        lineNumber: 42,
+                                        lineNumber: 49,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                lineNumber: 40,
+                                lineNumber: 47,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                        lineNumber: 19,
+                        lineNumber: 20,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                    lineNumber: 18,
+                    lineNumber: 19,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                lineNumber: 17,
+                lineNumber: 18,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -945,7 +949,7 @@ function Home() {
                             children: "Why Choose Us"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                            lineNumber: 78,
+                            lineNumber: 85,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -960,12 +964,12 @@ function Home() {
                                                 className: "w-8 h-8 text-[#1E73BE]"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                lineNumber: 83,
+                                                lineNumber: 90,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                            lineNumber: 82,
+                                            lineNumber: 89,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -973,7 +977,7 @@ function Home() {
                                             children: "Licensed Operators"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                            lineNumber: 85,
+                                            lineNumber: 92,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -981,13 +985,13 @@ function Home() {
                                             children: "Our team consists of certified professionals with years of experience in government documentation."
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                            lineNumber: 86,
+                                            lineNumber: 93,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                    lineNumber: 81,
+                                    lineNumber: 88,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -999,12 +1003,12 @@ function Home() {
                                                 className: "w-8 h-8 text-[#FF8C42]"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                lineNumber: 94,
+                                                lineNumber: 101,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                            lineNumber: 93,
+                                            lineNumber: 100,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1012,7 +1016,7 @@ function Home() {
                                             children: "Claim Assistance"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                            lineNumber: 96,
+                                            lineNumber: 103,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1020,13 +1024,13 @@ function Home() {
                                             children: "We provide end-to-end support for your insurance claims with dedicated assistance."
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                            lineNumber: 97,
+                                            lineNumber: 104,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 99,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1038,12 +1042,12 @@ function Home() {
                                                 className: "w-8 h-8 text-green-600 dark:text-green-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                lineNumber: 105,
+                                                lineNumber: 112,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                            lineNumber: 104,
+                                            lineNumber: 111,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1051,7 +1055,7 @@ function Home() {
                                             children: "Affordable Pricing"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                            lineNumber: 107,
+                                            lineNumber: 114,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1059,30 +1063,30 @@ function Home() {
                                             children: "We offer competitive rates without compromising on quality and service standards."
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                            lineNumber: 108,
+                                            lineNumber: 115,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                    lineNumber: 103,
+                                    lineNumber: 110,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                            lineNumber: 79,
+                            lineNumber: 86,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                    lineNumber: 77,
+                    lineNumber: 84,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                lineNumber: 76,
+                lineNumber: 83,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1098,7 +1102,7 @@ function Home() {
                                     children: "Documentation & Digital Services"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                    lineNumber: 121,
+                                    lineNumber: 128,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1131,7 +1135,7 @@ function Home() {
                                                     className: "w-10 h-10 text-[#1E73BE] mb-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                    lineNumber: 134,
+                                                    lineNumber: 141,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1139,7 +1143,7 @@ function Home() {
                                                     children: service.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                    lineNumber: 135,
+                                                    lineNumber: 142,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1147,24 +1151,24 @@ function Home() {
                                                     children: "Professional government services"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                    lineNumber: 136,
+                                                    lineNumber: 143,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, idx, true, {
                                             fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                            lineNumber: 130,
+                                            lineNumber: 137,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                    lineNumber: 122,
+                                    lineNumber: 129,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                            lineNumber: 120,
+                            lineNumber: 127,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1174,7 +1178,7 @@ function Home() {
                                     children: "Insurance Services"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                    lineNumber: 144,
+                                    lineNumber: 151,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1211,7 +1215,7 @@ function Home() {
                                                     className: "w-10 h-10 text-[#FF8C42] mb-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                    lineNumber: 158,
+                                                    lineNumber: 165,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1219,35 +1223,35 @@ function Home() {
                                                     children: service.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                    lineNumber: 159,
+                                                    lineNumber: 166,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, idx, true, {
                                             fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                            lineNumber: 154,
+                                            lineNumber: 161,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                    lineNumber: 145,
+                                    lineNumber: 152,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                            lineNumber: 143,
+                            lineNumber: 150,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                    lineNumber: 118,
+                    lineNumber: 125,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                lineNumber: 117,
+                lineNumber: 124,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1264,7 +1268,7 @@ function Home() {
                                         children: "About Manhar Total Solution"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                        lineNumber: 172,
+                                        lineNumber: 179,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1272,7 +1276,7 @@ function Home() {
                                         children: "With over a decade of experience, we've helped thousands of customers navigate complex government documentation and insurance processes."
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                        lineNumber: 173,
+                                        lineNumber: 180,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1289,7 +1293,7 @@ function Home() {
                                                         className: "w-5 h-5 text-[#1E73BE] flex-shrink-0"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                        lineNumber: 180,
+                                                        lineNumber: 187,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1297,21 +1301,22 @@ function Home() {
                                                         children: item
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                        lineNumber: 181,
+                                                        lineNumber: 188,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, idx, true, {
                                                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                lineNumber: 179,
+                                                lineNumber: 186,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                        lineNumber: 177,
+                                        lineNumber: 184,
                                         columnNumber: 15
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                        href: "/about",
                                         className: "px-8 py-3 bg-[#1E73BE] text-white rounded-lg hover:bg-[#155aa8] transition font-semibold inline-flex items-center gap-2",
                                         children: [
                                             "Learn More ",
@@ -1319,42 +1324,42 @@ function Home() {
                                                 className: "w-4 h-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                                lineNumber: 186,
+                                                lineNumber: 196,
                                                 columnNumber: 28
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                        lineNumber: 185,
+                                        lineNumber: 192,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                lineNumber: 171,
+                                lineNumber: 178,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "rounded-3xl overflow-hidden shadow-lg h-96 bg-gradient-to-br from-[#1E73BE] to-[#FF8C42] opacity-80"
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                lineNumber: 189,
+                                lineNumber: 199,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                        lineNumber: 170,
+                        lineNumber: 177,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                    lineNumber: 169,
+                    lineNumber: 176,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                lineNumber: 168,
+                lineNumber: 175,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1367,7 +1372,7 @@ function Home() {
                             children: "Need Immediate Assistance?"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                            lineNumber: 197,
+                            lineNumber: 207,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1375,43 +1380,47 @@ function Home() {
                             children: "Our dedicated support team is available 24/7 to help you with any questions."
                         }, void 0, false, {
                             fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                            lineNumber: 198,
+                            lineNumber: 208,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex gap-4 justify-center flex-wrap",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: "tel:+919924197765",
                                     className: "px-8 py-3 bg-white text-[#1E73BE] rounded-lg hover:bg-gray-100 transition font-semibold",
                                     children: "Call Now"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                    lineNumber: 202,
+                                    lineNumber: 212,
                                     columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$manhar$2d$total$2d$solution$2d$website__$28$2$292f$manhar$2d$total$2d$solution$2d$website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: "https://wa.me/919924197765",
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
                                     className: "px-8 py-3 bg-[#25D366] text-white rounded-lg hover:bg-green-600 transition font-semibold",
                                     children: "WhatsApp Us"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                                    lineNumber: 205,
+                                    lineNumber: 218,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                            lineNumber: 201,
+                            lineNumber: 211,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                    lineNumber: 196,
+                    lineNumber: 206,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Downloads/manhar-total-solution-website (2)/manhar-total-solution-website/app/page.tsx",
-                lineNumber: 195,
+                lineNumber: 205,
                 columnNumber: 7
             }, this)
         ]
