@@ -4,8 +4,6 @@ import type React from "react"
 
 import { useState } from "react"
 import Link from "next/link"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
 
 export default function Login() {
   const [formData, setFormData] = useState({
@@ -30,11 +28,9 @@ export default function Login() {
 
   return (
     <>
-      <Navbar />
-
-      <div className="min-h-screen flex items-center justify-center pt-20 pb-20 bg-gray-50">
+      <div className="min-h-screen flex items-center justify-center pt-20 pb-20 bg-gray-50 dark:bg-[#0a1421]">
         <div className="w-full max-w-md">
-          <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
+          <div className="bg-white dark:bg-[#1B2838] rounded-2xl shadow-lg p-8 border border-gray-100 dark:border-gray-700">
             {/* Logo */}
             <Link href="/" className="flex items-center justify-center gap-2 mb-8">
               <Image
@@ -47,23 +43,24 @@ export default function Login() {
               <div>
                 
                 <div className="text-[#1E73BE] font-bold text-sm">Manhar Total Solution</div>
-                
+               
+
               </div>
             </Link>
 
-            <h1 className="text-3xl font-bold text-center text-[#0D1B2A] mb-2">Welcome Back</h1>
-            <p className="text-center text-gray-600 mb-8">Sign in to your account</p>
+            <h1 className="text-3xl font-bold text-center text-[#0D1B2A] dark:text-white mb-2">Welcome Back</h1>
+            <p className="text-center text-gray-600 dark:text-gray-400 mb-8">Sign in to your account</p>
 
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Email Input */}
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Email Address</label>
+                <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Email Address</label>
                 <input
                   type="email"
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-[#0a1421] text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent"
                   placeholder="you@example.com"
                   required
                 />
@@ -71,13 +68,13 @@ export default function Login() {
 
               {/* Password Input */}
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Password</label>
+                <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Password</label>
                 <input
                   type="password"
                   name="password"
                   value={formData.password}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-[#0a1421] text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent"
                   placeholder="••••••••"
                   required
                 />
@@ -93,7 +90,7 @@ export default function Login() {
                     onChange={handleChange}
                     className="w-4 h-4 rounded border-gray-300"
                   />
-                  <span className="text-sm text-gray-600">Remember me</span>
+                  <span className="text-sm text-gray-600 dark:text-gray-400">Remember me</span>
                 </label>
                 <Link href="#" className="text-sm text-[#1E73BE] hover:underline font-semibold">
                   Forgot Password?
@@ -115,22 +112,22 @@ export default function Login() {
                 <div className="w-full border-t border-gray-300" />
               </div>
               <div className="relative flex justify-center text-sm">
-                <span className="px-2 bg-white text-gray-500">Or continue with</span>
+                <span className="px-2 bg-white dark:bg-[#1B2838] text-gray-500">Or continue with</span>
               </div>
             </div>
 
             {/* Social Login (Optional) */}
             <div className="grid grid-cols-2 gap-4 mb-8">
-              <button className="py-2 px-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition text-sm font-medium">
+              <button className="py-2 px-4 border border-gray-200 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition text-sm font-medium text-gray-700 dark:text-gray-300">
                 Google
               </button>
-              <button className="py-2 px-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition text-sm font-medium">
+              <button className="py-2 px-4 border border-gray-200 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition text-sm font-medium text-gray-700 dark:text-gray-300">
                 WhatsApp
               </button>
             </div>
 
             {/* Sign Up Link */}
-            <p className="text-center text-gray-600">
+            <p className="text-center text-gray-600 dark:text-gray-400">
               Don't have an account?{" "}
               <Link href="/signup" className="text-[#1E73BE] hover:underline font-semibold">
                 Sign up
@@ -139,8 +136,6 @@ export default function Login() {
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   )
 }

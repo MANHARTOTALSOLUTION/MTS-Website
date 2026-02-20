@@ -1,10 +1,8 @@
 "use client"
 
 import { useState } from "react"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
-import WhatsappButton from "@/components/whatsapp-button"
 import Link from "next/link"
+import WhatsappButton from "@/components/whatsapp-button"
 import {
   AadhaarIcon,
   CreditCardIcon,
@@ -62,8 +60,6 @@ export default function Services() {
 
   return (
     <>
-      <Navbar />
-
       {/* Page Header */}
       <section className="py-20 bg-gradient-to-r from-[#1E73BE] to-blue-800 text-white mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -73,7 +69,7 @@ export default function Services() {
       </section>
 
       {/* Tab Navigation */}
-      <section className="py-8 bg-white border-b border-gray-200 sticky top-20 z-40">
+      <section className="py-8 bg-white dark:bg-[#1B2838] border-b border-gray-200 dark:border-gray-700 sticky top-20 z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex gap-4 justify-center">
             <button
@@ -81,7 +77,7 @@ export default function Services() {
               className={`px-8 py-3 rounded-lg font-semibold transition ${
                 activeTab === "documentation"
                   ? "bg-[#1E73BE] text-white"
-                  : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                  : "bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-600"
               }`}
             >
               Documentation Services
@@ -89,7 +85,7 @@ export default function Services() {
             <button
               onClick={() => setActiveTab("insurance")}
               className={`px-8 py-3 rounded-lg font-semibold transition ${
-                activeTab === "insurance" ? "bg-[#FF8C42] text-white" : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                activeTab === "insurance" ? "bg-[#FF8C42] text-white" : "bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-600"
               }`}
             >
               Insurance Services
@@ -99,21 +95,21 @@ export default function Services() {
       </section>
 
       {/* Services Grid */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-gray-50 dark:bg-[#0a1421]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {activeTab === "documentation" && (
             <div>
-              <h2 className="text-4xl font-bold text-[#0D1B2A] mb-12">Documentation & Digital Services</h2>
+              <h2 className="text-4xl font-bold text-[#0D1B2A] dark:text-white mb-12">Documentation & Digital Services</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {documentationServices.map((service) => (
                   <Link
                     key={service.id}
                     href={`/services/${service.id}`}
-                    className="bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition border border-gray-100 group"
+                    className="bg-white dark:bg-[#1B2838] rounded-xl p-8 shadow-sm hover:shadow-lg transition border border-gray-100 dark:border-gray-700 group"
                   >
                     <service.icon className="w-10 h-10 text-[#1E73BE] mb-4 group-hover:scale-110 transition" />
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">{service.title}</h3>
-                    <p className="text-gray-600 mb-6">{service.description}</p>
+                    <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{service.title}</h3>
+                    <p className="text-gray-600 dark:text-gray-300 mb-6">{service.description}</p>
                     <span className="inline-flex items-center gap-2 text-[#1E73BE] font-semibold">
                       View More <ArrowRightIcon className="w-4 h-4" />
                     </span>
@@ -125,17 +121,17 @@ export default function Services() {
 
           {activeTab === "insurance" && (
             <div>
-              <h2 className="text-4xl font-bold text-[#0D1B2A] mb-12">Insurance Services</h2>
+              <h2 className="text-4xl font-bold text-[#0D1B2A] dark:text-white mb-12">Insurance Services</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {insuranceServices.map((service) => (
                   <Link
                     key={service.id}
                     href={`/services/${service.id}`}
-                    className="bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition border border-gray-100 group"
+                    className="bg-white dark:bg-[#1B2838] rounded-xl p-8 shadow-sm hover:shadow-lg transition border border-gray-100 dark:border-gray-700 group"
                   >
                     <service.icon className="w-10 h-10 text-[#FF8C42] mb-4 group-hover:scale-110 transition" />
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">{service.title}</h3>
-                    <p className="text-gray-600 mb-6">{service.description}</p>
+                    <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{service.title}</h3>
+                    <p className="text-gray-600 dark:text-gray-300 mb-6">{service.description}</p>
                     <span className="inline-flex items-center gap-2 text-[#FF8C42] font-semibold">
                       View Plans <ArrowRightIcon className="w-4 h-4" />
                     </span>
@@ -147,7 +143,6 @@ export default function Services() {
         </div>
       </section>
 
-      <Footer />
       <WhatsappButton />
     </>
   )

@@ -4,8 +4,6 @@ import type React from "react"
 
 import { useState } from "react"
 import Link from "next/link"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
 
 export default function Signup() {
   const [formData, setFormData] = useState({
@@ -50,11 +48,9 @@ export default function Signup() {
 
   return (
     <>
-      <Navbar />
-
-      <div className="min-h-screen flex items-center justify-center pt-20 pb-20 bg-gray-50">
+      <div className="min-h-screen flex items-center justify-center pt-20 pb-20 bg-gray-50 dark:bg-[#0a1421]">
         <div className="w-full max-w-md">
-          <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
+          <div className="bg-white dark:bg-[#1B2838] rounded-2xl shadow-lg p-8 border border-gray-100 dark:border-gray-700">
             {/* Logo */}
             <Link href="/" className="flex items-center justify-center gap-2 mb-8">
               <div className="w-10 h-10 bg-[#1E73BE] rounded-lg flex items-center justify-center text-white font-bold">
@@ -65,21 +61,21 @@ export default function Signup() {
               </div>
             </Link>
 
-            <h1 className="text-3xl font-bold text-center text-[#0D1B2A] mb-2">Create Account</h1>
-            <p className="text-center text-gray-600 mb-8">Join us and get started</p>
+            <h1 className="text-3xl font-bold text-center text-[#0D1B2A] dark:text-white mb-2">Create Account</h1>
+            <p className="text-center text-gray-600 dark:text-gray-400 mb-8">Join us and get started</p>
 
             <form onSubmit={handleSubmit} className="space-y-5">
               {/* Name Input */}
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Full Name</label>
+                <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Full Name</label>
                 <input
                   type="text"
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
                   className={`w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent ${
-                    errors.name ? "border-red-500" : "border-gray-200"
-                  }`}
+                    errors.name ? "border-red-500" : "border-gray-200 dark:border-gray-600"
+                  } bg-white dark:bg-[#0a1421] text-gray-900 dark:text-white`}
                   placeholder="John Doe"
                   required
                 />
@@ -88,15 +84,15 @@ export default function Signup() {
 
               {/* Email Input */}
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Email Address</label>
+                <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Email Address</label>
                 <input
                   type="email"
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
                   className={`w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent ${
-                    errors.email ? "border-red-500" : "border-gray-200"
-                  }`}
+                    errors.email ? "border-red-500" : "border-gray-200 dark:border-gray-600"
+                  } bg-white dark:bg-[#0a1421] text-gray-900 dark:text-white`}
                   placeholder="you@example.com"
                   required
                 />
@@ -105,15 +101,15 @@ export default function Signup() {
 
               {/* Phone Input */}
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Phone Number</label>
+                <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Phone Number</label>
                 <input
                   type="tel"
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
                   className={`w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent ${
-                    errors.phone ? "border-red-500" : "border-gray-200"
-                  }`}
+                    errors.phone ? "border-red-500" : "border-gray-200 dark:border-gray-600"
+                  } bg-white dark:bg-[#0a1421] text-gray-900 dark:text-white`}
                   placeholder="+91 98765 43210"
                   required
                 />
@@ -122,15 +118,15 @@ export default function Signup() {
 
               {/* Password Input */}
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Password</label>
+                <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Password</label>
                 <input
                   type="password"
                   name="password"
                   value={formData.password}
                   onChange={handleChange}
                   className={`w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent ${
-                    errors.password ? "border-red-500" : "border-gray-200"
-                  }`}
+                    errors.password ? "border-red-500" : "border-gray-200 dark:border-gray-600"
+                  } bg-white dark:bg-[#0a1421] text-gray-900 dark:text-white`}
                   placeholder="••••••••"
                   required
                 />
@@ -139,15 +135,15 @@ export default function Signup() {
 
               {/* Confirm Password Input */}
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Confirm Password</label>
+                <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Confirm Password</label>
                 <input
                   type="password"
                   name="confirmPassword"
                   value={formData.confirmPassword}
                   onChange={handleChange}
                   className={`w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent ${
-                    errors.confirmPassword ? "border-red-500" : "border-gray-200"
-                  }`}
+                    errors.confirmPassword ? "border-red-500" : "border-gray-200 dark:border-gray-600"
+                  } bg-white dark:bg-[#0a1421] text-gray-900 dark:text-white`}
                   placeholder="••••••••"
                   required
                 />
@@ -164,7 +160,7 @@ export default function Signup() {
             </form>
 
             {/* Sign In Link */}
-            <p className="text-center text-gray-600 mt-8">
+            <p className="text-center text-gray-600 dark:text-gray-400 mt-8">
               Already have an account?{" "}
               <Link href="/login" className="text-[#1E73BE] hover:underline font-semibold">
                 Sign in
@@ -173,8 +169,6 @@ export default function Signup() {
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   )
 }

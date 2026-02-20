@@ -1,0 +1,17 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/apply/page": "/apply",
+  "/contact/page": "/contact",
+  "/dashboard/applications/page": "/dashboard/applications",
+  "/dashboard/documents/page": "/dashboard/documents",
+  "/dashboard/page": "/dashboard",
+  "/dashboard/profile/page": "/dashboard/profile",
+  "/login/page": "/login",
+  "/page": "/",
+  "/privacy/page": "/privacy",
+  "/services/[id]/page": "/services/[id]",
+  "/services/page": "/services",
+  "/signup/page": "/signup"
+}

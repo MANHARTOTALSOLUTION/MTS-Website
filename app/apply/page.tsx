@@ -3,8 +3,6 @@
 import type React from "react"
 
 import { useState } from "react"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
 import WhatsappButton from "@/components/whatsapp-button"
 
 const allServices = [
@@ -61,22 +59,20 @@ export default function Apply() {
 
   return (
     <>
-      <Navbar />
-
-      <div className="pt-20 pb-20 bg-gray-50 min-h-screen">
+      <div className="pt-20 pb-20 bg-gray-50 dark:bg-[#0a1421] min-h-screen">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold text-[#0D1B2A] mb-4">Apply for a Service</h1>
+            <h1 className="text-4xl font-bold text-[#0D1B2A] dark:text-white mb-4">Apply for a Service</h1>
             <p className="text-lg text-gray-600">
               Fill out the form below and our team will get back to you within 24 hours
             </p>
           </div>
 
           {/* Form Card */}
-          <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
+          <div className="bg-white dark:bg-[#1B2838] rounded-2xl shadow-lg p-8 border border-gray-100 dark:border-gray-700">
             {submitted && (
-              <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg text-green-800">
+              <div className="mb-6 p-4 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg text-green-800 dark:text-green-200">
                 ✓ Application submitted successfully! We'll contact you soon.
               </div>
             )}
@@ -84,13 +80,13 @@ export default function Apply() {
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Name Input */}
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Full Name</label>
+                <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Full Name</label>
                 <input
                   type="text"
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-[#0a1421] text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent"
                   placeholder="John Doe"
                   required
                 />
@@ -98,13 +94,13 @@ export default function Apply() {
 
               {/* Email Input */}
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Email Address</label>
+                <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Email Address</label>
                 <input
                   type="email"
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-[#0a1421] text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent"
                   placeholder="you@example.com"
                   required
                 />
@@ -112,13 +108,13 @@ export default function Apply() {
 
               {/* Phone Input */}
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Phone Number</label>
+                <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Phone Number</label>
                 <input
                   type="tel"
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-[#0a1421] text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent"
                   placeholder="+91 98765 43210"
                   required
                 />
@@ -126,12 +122,12 @@ export default function Apply() {
 
               {/* Service Selection */}
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Select Service</label>
+                <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Select Service</label>
                 <select
                   name="service"
                   value={formData.service}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-[#0a1421] text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent"
                   required
                 >
                   <option value="">Choose a service...</option>
@@ -145,25 +141,25 @@ export default function Apply() {
 
               {/* File Upload */}
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Upload Documents</label>
+                <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Upload Documents</label>
                 <div className="relative">
                   <input
                     type="file"
                     onChange={handleFileChange}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-[#0a1421] text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent"
                   />
-                  {file && <p className="text-sm text-gray-600 mt-2">✓ {file.name}</p>}
+                  {file && <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">✓ {file.name}</p>}
                 </div>
               </div>
 
               {/* Notes */}
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Additional Notes</label>
+                <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Additional Notes</label>
                 <textarea
                   name="notes"
                   value={formData.notes}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent resize-none"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-[#0a1421] text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-[#1E73BE] focus:border-transparent resize-none"
                   placeholder="Any additional information you'd like to share..."
                   rows={4}
                 />
@@ -181,7 +177,6 @@ export default function Apply() {
         </div>
       </div>
 
-      <Footer />
       <WhatsappButton />
     </>
   )
