@@ -89,6 +89,9 @@
       --tw-translate-x: 0;
       --tw-translate-y: 0;
       --tw-translate-z: 0;
+      --tw-scale-x: 1;
+      --tw-scale-y: 1;
+      --tw-scale-z: 1;
       --tw-rotate-x: initial;
       --tw-rotate-y: initial;
       --tw-rotate-z: initial;
@@ -154,9 +157,6 @@
       --tw-backdrop-sepia: initial;
       --tw-duration: initial;
       --tw-ease: initial;
-      --tw-scale-x: 1;
-      --tw-scale-y: 1;
-      --tw-scale-z: 1;
       --tw-content: "";
       --tw-animation-delay: 0s;
       --tw-animation-direction: normal;
@@ -266,6 +266,7 @@
     --ease-in-out: cubic-bezier(.4, 0, .2, 1);
     --animate-spin: spin 1s linear infinite;
     --animate-pulse: pulse 2s cubic-bezier(.4, 0, .6, 1) infinite;
+    --animate-bounce: bounce 1s infinite;
     --blur-sm: 8px;
     --blur-md: 12px;
     --blur-3xl: 64px;
@@ -731,6 +732,10 @@
     right: calc(var(--spacing) * 6);
   }
 
+  .right-full {
+    right: 100%;
+  }
+
   .-bottom-12 {
     bottom: calc(var(--spacing) * -12);
   }
@@ -761,6 +766,10 @@
 
   .left-\[50\%\] {
     left: 50%;
+  }
+
+  .left-full {
+    left: 100%;
   }
 
   .isolate {
@@ -889,6 +898,10 @@
 
   .mt-auto {
     margin-top: auto;
+  }
+
+  .mr-3 {
+    margin-right: calc(var(--spacing) * 3);
   }
 
   .mb-1 {
@@ -1512,6 +1525,20 @@
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
 
+  .scale-100 {
+    --tw-scale-x: 100%;
+    --tw-scale-y: 100%;
+    --tw-scale-z: 100%;
+    scale: var(--tw-scale-x) var(--tw-scale-y);
+  }
+
+  .scale-110 {
+    --tw-scale-x: 110%;
+    --tw-scale-y: 110%;
+    --tw-scale-z: 110%;
+    scale: var(--tw-scale-x) var(--tw-scale-y);
+  }
+
   .rotate-45 {
     rotate: 45deg;
   }
@@ -1526,6 +1553,10 @@
 
   .transform {
     transform: var(--tw-rotate-x, ) var(--tw-rotate-y, ) var(--tw-rotate-z, ) var(--tw-skew-x, ) var(--tw-skew-y, );
+  }
+
+  .animate-bounce {
+    animation: var(--animate-bounce);
   }
 
   .animate-caret-blink {
@@ -1873,6 +1904,11 @@
     border-width: 2px;
   }
 
+  .border-8 {
+    border-style: var(--tw-border-style);
+    border-width: 8px;
+  }
+
   .border-\[1\.5px\] {
     border-style: var(--tw-border-style);
     border-width: 1.5px;
@@ -1994,6 +2030,10 @@
     border-top-color: #0000;
   }
 
+  .border-l-gray-900 {
+    border-left-color: var(--color-gray-900);
+  }
+
   .border-l-transparent {
     border-left-color: #0000;
   }
@@ -2084,6 +2124,10 @@
 
   .bg-gray-200 {
     background-color: var(--color-gray-200);
+  }
+
+  .bg-gray-900 {
+    background-color: var(--color-gray-900);
   }
 
   .bg-green-50 {
@@ -5202,6 +5246,10 @@
     border-color: var(--color-white);
   }
 
+  .dark\:border-l-white:is(.dark *) {
+    border-left-color: var(--color-white);
+  }
+
   .dark\:bg-\[\#0D1B2A\]:is(.dark *) {
     background-color: #0d1b2a;
   }
@@ -5289,6 +5337,10 @@
 
   .dark\:bg-transparent:is(.dark *) {
     background-color: #0000;
+  }
+
+  .dark\:bg-white:is(.dark *) {
+    background-color: var(--color-white);
   }
 
   .dark\:from-blue-900\/20:is(.dark *) {
@@ -5385,6 +5437,10 @@
 
   .dark\:text-gray-400:is(.dark *) {
     color: var(--color-gray-400);
+  }
+
+  .dark\:text-gray-900:is(.dark *) {
+    color: var(--color-gray-900);
   }
 
   .dark\:text-green-200:is(.dark *) {
@@ -6444,6 +6500,24 @@
   initial-value: 0;
 }
 
+@property --tw-scale-x {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
+
+@property --tw-scale-y {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
+
+@property --tw-scale-z {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
+
 @property --tw-rotate-x {
   syntax: "*";
   inherits: false
@@ -6790,24 +6864,6 @@
   inherits: false
 }
 
-@property --tw-scale-x {
-  syntax: "*";
-  inherits: false;
-  initial-value: 1;
-}
-
-@property --tw-scale-y {
-  syntax: "*";
-  inherits: false;
-  initial-value: 1;
-}
-
-@property --tw-scale-z {
-  syntax: "*";
-  inherits: false;
-  initial-value: 1;
-}
-
 @property --tw-content {
   syntax: "*";
   inherits: false;
@@ -6823,6 +6879,18 @@
 @keyframes pulse {
   50% {
     opacity: .5;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    animation-timing-function: cubic-bezier(.8, 0, 1, 1);
+    transform: translateY(-25%);
+  }
+
+  50% {
+    animation-timing-function: cubic-bezier(0, 0, .2, 1);
+    transform: none;
   }
 }
 
