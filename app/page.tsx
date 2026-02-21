@@ -10,6 +10,8 @@ import {
   CarIcon,
   HeartIcon,
 } from "@/lib/icons"
+import GallerySection from "@/components/gallery-section"
+import ReviewsSection from "@/components/reviews-section"
 
 export default function Home() {
   return (
@@ -226,6 +228,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Gallery Section */}
+      <GallerySection />
+
+      {/* Reviews Section */}
+      <ReviewsSection />
     </>
   )
 }

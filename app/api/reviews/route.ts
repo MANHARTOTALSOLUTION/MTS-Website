@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { query } from '@/lib/db'
+import { verifyToken } from '@/lib/auth'
 
 export async function GET() {
   try {
@@ -15,12 +16,18 @@ export async function GET() {
 
 export async function POST(request: NextRequest) {
   try {
-    const body = await request.json()
-    const { name, rating, message } = body
+    const token = request.cookies.get('token')?.value
+    if (!token) {
+      return NextResponse.json({ error: 'Unauthorized - Please login to submit a review' }, { status: 401 })
+    }
 
-    if (!name || !rating || !message) {
+    const user = verifyToken(token)
+    const body = await request.json()
+    const { rating, message } = body
+
+    if (!rating || !message) {
       return NextResponse.json(
-        { error: 'Name, rating and message are required' },
+        { error: 'Rating and message are required' },
         { status: 400 }
       )
     }
@@ -31,6 +38,8 @@ export async function POST(request: NextRequest) {
         { status: 400 }
       )
     }
+
+    const name = user.name
 
     const result = await query(
       'INSERT INTO customer_reviews (name, rating, message) VALUES ($1, $2, $3) RETURNING *',

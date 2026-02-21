@@ -1,0 +1,13 @@
+__turbopack_load_page_chunks__("/_app", [
+  "static/chunks/c26cb_next_dist_compiled_2e483ce3._.js",
+  "static/chunks/c26cb_next_dist_shared_lib_ebeddc3c._.js",
+  "static/chunks/c26cb_next_dist_client_bee7743b._.js",
+  "static/chunks/c26cb_next_dist_cf129813._.js",
+  "static/chunks/c26cb_next_app_a1204165.js",
+  "static/chunks/[next]_entry_page-loader_ts_d88371b9._.js",
+  "static/chunks/c26cb_react-dom_801872eb._.js",
+  "static/chunks/c26cb_ef6ddee2._.js",
+  "static/chunks/[root-of-the-server]__ae0584e0._.js",
+  "static/chunks/ef0b8_har-total-solution-website (2)_manhar-total-solution-website_pages__app_2da965e7._.js",
+  "static/chunks/76010_har-total-solution-website (2)_manhar-total-solution-website_pages__app_9d325da7._.js"
+])

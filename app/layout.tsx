@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import FloatingWhatsApp from "@/components/floating-whatsapp"
+import { AuthProvider } from "@/context/AuthContext"
 import "./globals.css"
 
 const _geist = Geist({ subsets: ["latin"] })
@@ -70,13 +71,15 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange={false}
         >
-          <Navbar />
-          <main className="min-h-screen">
-            {children}
-          </main>
-          <Footer />
-          <FloatingWhatsApp />
-          <Analytics />
+          <AuthProvider>
+            <Navbar />
+            <main className="min-h-screen">
+              {children}
+            </main>
+            <Footer />
+            <FloatingWhatsApp />
+            <Analytics />
+          </AuthProvider>
         </ThemeProvider>
       </body>
     </html>
